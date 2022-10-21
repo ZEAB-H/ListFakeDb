@@ -1,0 +1,15 @@
+{
+    "lists": [
+      {
+        "id": 1,
+        "title": "Daily Groceries"
+         
+      },
+      {
+        "id": 2,
+        "title": "Birthday gifts"
+         
+      }
+       
+    ]
+  }
