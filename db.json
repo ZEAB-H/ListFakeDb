@@ -1,29 +1,23 @@
 {
-    "lists": [
-      {
-        "id": 1,
-        "title": "Daily Groceries"
-         
-      },
-      {
-        "id": 2,
-        "title": "Birthday gifts"
-         
-      }
-       
-    ],
-
-    "items": [
-      {
-        "id": 1,
-        "item": "carrot"
-         
-      },
-      {
-        "id": 2,
-        "title": "Banana"
-         
-      }
-       
-    ]
+  "items": [
+    {
+      "id": 1,
+      "listId": 1,
+      "title": "Washing pods",
+      "quantity": 1,
+      "price": 699
+    },
+    { "id": 2, "listId": 1, "title": "Rice", "quantity": 1, "price": 0.99 },
+    {
+      "id": 3,
+      "listId": 2,
+      "title": "Birthday Cake",
+      "quantity": 1,
+      "price": 899
+    }
+  ],
+  "lists": [
+    { "id": 1, "title": "Daily groceries" },
+    { "id": 2, "title": "Birthday gifts" }
+  ]
   }
